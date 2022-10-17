@@ -1,0 +1,26 @@
+.navTitleCard {
+  background-color: yellowgreen;
+  color: black;
+  width: 150px;
+  height: 60px;
+  /* margin: top right bottom left */
+  margin: 10px 0px 20px 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.navStyle {
+  background: green;
+  color: white;
+  padding: 10px;
+}
+
+.active {
+  color: rgb(167, 62, 62);
+  padding: 10px;
+}
+
+.blue {
+  color: blue;
+}
