@@ -29,7 +29,12 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="dashboard" element={<Dashboard />} />
+        {/* to accept subcomponents and subroutes in the Dashboard component */}
+        <Route path="dashboard/*" element={<Dashboard />}>
+          <Route path="welcome" element={<p>in the Dashboard and Welcome</p>} />
+          <Route path="goodby" element={<p>in the Dashboard and Goodby</p>} />
+        </Route>
+
         <Route path="about" element={<AboutPage />} />
         <Route path="user/:id" element={<UserPage />} />
         <Route path="goabout" element={<Navigate to="/about" />} />

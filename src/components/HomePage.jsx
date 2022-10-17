@@ -7,7 +7,7 @@ function HomePage() {
     return (
         <>
             <main>
-                <h2>Welcome to the home page!</h2>
+                <h2 className="pageFound">Welcome to the home page!</h2>
                 <p>You can do this, I believe in you.</p>
             </main>
             <nav>

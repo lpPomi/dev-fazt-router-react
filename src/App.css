@@ -1,5 +1,5 @@
 .navTitleCard {
-  background-color: yellowgreen;
+  background-color: rgb(192, 209, 43);
   color: black;
   width: 150px;
   height: 60px;
@@ -24,4 +24,14 @@
 .blue {
   color: blue;
   padding: 10px;
+}
+
+.pageNotFound {
+  background: yellow;
+  color: rgb(182, 71, 71);
+}
+
+.pageFound {
+  background: greenyellow;
+  color: rgb(82, 82, 185);
 }

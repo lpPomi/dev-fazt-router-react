@@ -5,11 +5,11 @@ function NotFoundPage() {
     return (
         <>
             <main>
-                <h2>Page not found 404 ! </h2>
+                <h2 className="pageNotFound">Page not found 404 ! </h2>
                 <p>You can return to home</p>
             </main>
             <nav>
-                <Link to="/">Home</Link>
+                <Link className='navStyle' to="/">Home</Link>
             </nav>
         </>
     )
