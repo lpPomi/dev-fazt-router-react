@@ -20,7 +20,12 @@ function Navbar() {
             </main>
 
             <NavLink className={({ isActive }) => isActive ? 'active' : 'blue'} to="/" end>Home</NavLink>
+
             <NavLink className={({ isActive }) => isActive ? 'active' : 'blue'} to="/about">About</NavLink>
+
+            <NavLink className={({ isActive }) => isActive ? 'active' : 'blue'} to="/user">User</NavLink>
+
+
 
             {/*  good! use end in the root component
             <NavLink className='navStyle' to="/" end>Home</NavLink>

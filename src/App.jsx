@@ -1,9 +1,11 @@
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 import HomePage from "./components/HomePage";
+import UserPage from './components/UserPage'
 import Navbar from "./components/Navbar";
 import NotFoundPage from './components/NotFoundPage'
+import Dashboard from "./Dashboard";
 
 function App() {
 
@@ -27,9 +29,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="dashboard" element={<Dashboard />} />
         <Route path="about" element={<AboutPage />} />
-
-        {/* Route not found 404 */}
+        <Route path="user/:id" element={<UserPage />} />
+        <Route path="goabout" element={<Navigate to="/about" />} />
+        {/* Route not found 404. Always put it on the end of all router */}
         <Route path="*" element={<NotFoundPage />} />
 
 
