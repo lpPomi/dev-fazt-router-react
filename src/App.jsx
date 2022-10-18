@@ -5,7 +5,7 @@ import HomePage from "./components/HomePage";
 import UserPage from './components/UserPage'
 import Navbar from "./components/Navbar";
 import NotFoundPage from './components/NotFoundPage'
-import Dashboard from "./Dashboard";
+import Dashboard from "./components/Dashboard";
 
 function App() {
 
